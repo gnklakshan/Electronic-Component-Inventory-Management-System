@@ -1,0 +1,48 @@
+create capacitor
+create resistor
+add capacitor 200 f 100 30
+add capacitor 150 f 100 30
+add capacitor 250 f 100 30
+add capacitor 225 f 100 30
+add capacitor 180 f 100 30
+display capacitor
+sort capacitor asc
+display capacitor
+sort capacitor desc
+
+display capacitor
+
+add 
+add resistor 10 ohm 756 10
+add resistor 140 ohm 656 56
+add resistor 50 ohm 66 865
+add resistor 150 ohm 56 145
+add resistor 60 ohm 98 165
+search resistor 50 ohm
+delete resistor 50 ohm
+search resistor 50 ohm
+display resistor
+setprice resistor 140 ohm 120
+search resistor 140 ohm
+
+add wire 10 m 111 1400
+add car 50 ohm 66 865
+Display car
+display wire
+
+add resis 40 ohm 74 59
+
+ad resis 40 ohm 74 59
+
+sell resistor 10 ohm 5
+search resistor 10 ohm
+sell resistor 10 ohm 800
+
+sell capacitor 200 f 100
+search capacitor 200 f
+buy capacitor 200 f 1200
+search capacitor 200 f
+
+exit
+
+display resistor
